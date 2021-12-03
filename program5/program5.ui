@@ -92,36 +92,6 @@
      <string>Valor para z</string>
     </property>
    </widget>
-   <widget class="QTextBrowser" name="text_x">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>240</y>
-      <width>141</width>
-      <height>31</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextBrowser" name="text_y">
-    <property name="geometry">
-     <rect>
-      <x>310</x>
-      <y>240</y>
-      <width>151</width>
-      <height>31</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextBrowser" name="text_z">
-    <property name="geometry">
-     <rect>
-      <x>550</x>
-      <y>240</y>
-      <width>161</width>
-      <height>31</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QPushButton" name="Button_calcular">
     <property name="geometry">
      <rect>
@@ -148,16 +118,6 @@
      <string>Resultado</string>
     </property>
    </widget>
-   <widget class="QTextBrowser" name="text_resultado">
-    <property name="geometry">
-     <rect>
-      <x>260</x>
-      <y>360</y>
-      <width>256</width>
-      <height>41</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QPushButton" name="button_limpiar">
     <property name="geometry">
      <rect>
@@ -182,6 +142,46 @@
     </property>
     <property name="text">
      <string>Salir</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="text_x">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>240</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="text_y">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>240</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="text_z">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>240</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="text_resultado">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>360</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
     </property>
    </widget>
   </widget>
