@@ -66,16 +66,6 @@
      <string>Nombre</string>
     </property>
    </widget>
-   <widget class="QTextBrowser" name="text_nombre">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>160</y>
-      <width>401</width>
-      <height>31</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_nc">
     <property name="geometry">
      <rect>
@@ -87,16 +77,6 @@
     </property>
     <property name="text">
      <string>Numero de control</string>
-    </property>
-   </widget>
-   <widget class="QTextBrowser" name="text_nc">
-    <property name="geometry">
-     <rect>
-      <x>440</x>
-      <y>160</y>
-      <width>271</width>
-      <height>31</height>
-     </rect>
     </property>
    </widget>
    <widget class="QLabel" name="label_semestre">
@@ -112,16 +92,6 @@
      <string>Semestre</string>
     </property>
    </widget>
-   <widget class="QTextBrowser" name="text_semestre">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>240</y>
-      <width>251</width>
-      <height>31</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_carrera">
     <property name="geometry">
      <rect>
@@ -135,16 +105,6 @@
      <string>Carrera</string>
     </property>
    </widget>
-   <widget class="QTextBrowser" name="text_carrera">
-    <property name="geometry">
-     <rect>
-      <x>280</x>
-      <y>240</y>
-      <width>221</width>
-      <height>31</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_materia">
     <property name="geometry">
      <rect>
@@ -156,16 +116,6 @@
     </property>
     <property name="text">
      <string>Materia</string>
-    </property>
-   </widget>
-   <widget class="QTextBrowser" name="text_materia">
-    <property name="geometry">
-     <rect>
-      <x>520</x>
-      <y>240</y>
-      <width>211</width>
-      <height>31</height>
-     </rect>
     </property>
    </widget>
    <widget class="QLabel" name="label_p1">
@@ -207,36 +157,6 @@
      <string>Parcial 3</string>
     </property>
    </widget>
-   <widget class="QTextBrowser" name="text_p1">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>320</y>
-      <width>191</width>
-      <height>31</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextBrowser" name="text_p2">
-    <property name="geometry">
-     <rect>
-      <x>250</x>
-      <y>320</y>
-      <width>171</width>
-      <height>31</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextBrowser" name="text_p3">
-    <property name="geometry">
-     <rect>
-      <x>450</x>
-      <y>320</y>
-      <width>151</width>
-      <height>31</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QPushButton" name="button_buscar">
     <property name="geometry">
      <rect>
@@ -276,26 +196,6 @@
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;Status&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
-   <widget class="QTextBrowser" name="text_promedio">
-    <property name="geometry">
-     <rect>
-      <x>130</x>
-      <y>390</y>
-      <width>201</width>
-      <height>31</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QTextBrowser" name="text_status">
-    <property name="geometry">
-     <rect>
-      <x>130</x>
-      <y>440</y>
-      <width>201</width>
-      <height>31</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QPushButton" name="button_limpiar">
     <property name="geometry">
      <rect>
@@ -320,6 +220,106 @@
     </property>
     <property name="text">
      <string>Salir</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="text_status">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>440</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="text_promedio">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>390</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="text_p1">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>320</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="text_p2">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>320</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="text_p3">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>320</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="text_semestre">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>230</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="text_carrera">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>230</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="text_materia">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>230</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="text_nombre">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>160</y>
+      <width>371</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="text_nc">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>160</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
     </property>
    </widget>
   </widget>
